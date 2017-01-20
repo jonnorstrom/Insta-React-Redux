@@ -11,8 +11,6 @@ const initialState = {
   fetching: false
 }
 
-
-
 export default function userReducer(state = initialState, action) {
   switch (action.type) {
     case FETCH_USER_DATA: {

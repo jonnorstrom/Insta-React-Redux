@@ -4,7 +4,8 @@ import { fetchUser } from '../actions/UserActions';
 
 function mapStateToProps(state) {
   return {
-    user: state.userReducer
+    user: state.userReducer,
+    // pictures: state.userReducer.pictures
   }
 }
 
